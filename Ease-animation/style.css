@@ -73,10 +73,10 @@ body {
 	left: 0px;
 	height: 50px;
 	width: 400px;
-	-webkit-animation: animate_box 1.5s cubic-bezier(.64,.57,.67,1.53) 0s infinite normal none running;
-  -moz-animation: animate_box 1.5s cubic-bezier(.64,.57,.67,1.53) 0s infinite normal none running;
-  -ms-animation: animate_box 1.5s cubic-bezier(.64,.57,.67,1.53) 0s infinite normal none running;
-  animation: animate_box 1.5s cubic-bezier(.64,.57,.67,1.53) 0s infinite normal none running;
+	-webkit-animation: animate_box 1.5s cubic-bezier(.25,-.5,.75,1.5) 0s infinite normal none running;
+  -moz-animation: animate_box 1.5s cubic-bezier(.25,-.5,.75,1.5) 0s infinite normal none running;
+  -ms-animation: animate_box 1.5s cubic-bezier(.25,-.5,.75,1.5) 0s infinite normal none running;
+  animation: animate_box 1.5s cubic-bezier(.25,-.5,.75,1.5) 0s infinite normal none running;
 }
 
 /*Bizear Ease in-elastic*/
@@ -103,6 +103,17 @@ body {
   animation: animate_box 1.5s cubic-bezier(0, 1.65, 0, .9) 0s infinite normal none running;
 }
 
+/*Bizear Ease dramatic-elastic*/
+.box-nine {
+	background-color: indianred;
+	left: 0px;
+	height: 50px;
+	width: 400px;
+	-webkit-animation: animate_box 1.5s cubic-bezier(0.5, 2, 0.5, -1) 0s infinite normal none running;
+  -moz-animation: animate_box 1.5s cubic-bezier(0.5, 2, 0.5, -1) 0s infinite normal none running;
+  -ms-animation: animate_box 1.5s cubic-bezier(0.5, 2, 0.5, -1) 0s infinite normal none running;
+  animation: animate_box 1.5s cubic-bezier(0.5, 2, 0.5, -1) 0s infinite normal none running;
+}
 
 
 
